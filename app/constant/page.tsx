@@ -1,6 +1,11 @@
 import {RxHome, RxPerson, RxDashboard, RxClipboard} from "react-icons/rx"
 
-export const skillData = [
+export const skillData:{
+    name:string,
+    Image:string,
+    width:number,
+    height:number
+}[]= [
     {
         name:"HTML",
         Image: "/html.png",
