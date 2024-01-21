@@ -17,7 +17,7 @@ export default function About() {
 
     <div className='border-double border-4 border-indigo-600 py-4 text-center col-start-1 col-span-4'><h1 className='font-semibold text-white text-[40px] font-primary'>About<span className='text-indigo-600'>Me</span></h1></div>
       
-      <div className='col-start-1 row-span-2'><img className="rounded-bl-lg border-r-8 border-t-4 border-indigo-600" src='about.jpg' alt="allahdad"/></div>
+      <div className='col-start-1 row-span-2'><Image className="rounded-bl-lg border-r-8 border-t-4 border-indigo-600" src='about.jpg' alt="allahdad"/></div>
       <div className='font-semibold border-double border-4 border-indigo-600 px-4 py-2 col-start-2 col-span-3 row-start-2 row-span-3'><p>As a newcomer to this dynamic field, every line of code feels like a step into the unknown. The thrill of creating something from scratch, coupled with the constant learning curve, has been both daunting and exhilarating. Armed with a passion for technology and a determination to grasp the intricacies of web development, I find myself navigating through HTML, Tailwind CSS, and Typescript with wide-eyed enthusiasm. My fascination with technology started as a spark, gradually igniting into a blazing passion for development.</p></div>
       
       <div className='py-5 border-double border-4 border-indigo-600 order-3 flex justify-center gap-6'><Link href={"https://web.facebook.com"}> <FaFacebookF color="#4267B2" /></Link> 
@@ -45,10 +45,7 @@ export default function About() {
     </div>
      
     </div>
-  
-    
-    
-   
+
   
   </main>
     )
