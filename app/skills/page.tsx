@@ -5,7 +5,7 @@ import "swiper/css"
 import Link from 'next/link'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import { Autoplay } from 'swiper/modules'
-import { skillData } from '../constant/page'
+import { skillData } from '../constant/constant'
 
 
 
