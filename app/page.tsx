@@ -8,11 +8,11 @@ import Link from 'next/link'
 export default function Home() {
   return (
 
-<main className='w-screen h-screen relative'>
+<div className='w-screen h-screen relative'>
 
   <div className='h-full w-full bg-cover bg-center' style={{backgroundImage: "url(/bg.jpg)"}}>
   <div className='py-5'><Header></Header></div>
-  <div className='flex justify-center'><img className="h-64 w-64 border border-2 border-yellow-700  rounded-full zoom2" src='ad2.jpg'/></div> 
+  <div className='flex justify-center'><Image className="h-64 w-64 border border-2 border-yellow-700  rounded-full zoom2" src='/ad2.jpg' alt={''} width={200} height={200}/></div> 
   <div className='pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]'>
   
   </div>
@@ -28,10 +28,6 @@ export default function Home() {
    
   </div>
 
-  
-  
- 
-
-</main>
+  </div>
   )
 }
