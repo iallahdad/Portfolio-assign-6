@@ -57,8 +57,7 @@ const ContactForm = () => {
           <textarea onChange={getMsg}
             id="message"
             name="message"
-            rows="2"
-            className="w-full px-2 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+           className="w-full px-2 py-2 border rounded-md focus:outline-none focus:border-blue-500"
           ></textarea>
         </div>
         <div className="flex items-center justify-between">
